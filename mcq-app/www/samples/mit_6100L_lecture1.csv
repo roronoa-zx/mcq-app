@@ -1,0 +1,53 @@
+question,option_a,option_b,option_c,option_d,answer,explanation
+Declarative knowledge is best described as:,A recipe or how-to,A sequence of loops,Statements of fact,A type of variable,C,Declarative = statements of fact. Imperative = recipe or how-to.
+Imperative knowledge is best described as:,Statements of fact,The output of a program,A recipe or how-to,A list of variable names,C,Imperative knowledge is the 'how-to'.
+Programming is mainly about:,Typing as fast as possible,Drawing diagrams,Writing recipes to generate facts,Memorising facts,C,Programs are recipes (imperative knowledge) that generate facts.
+Which of these is NOT one of the three things an algorithm needs?,A graphical user interface,A sequence of simple steps,A means of determining when to stop,Flow of control,A,"Steps, flow of control, and a stopping condition."
+"In the square root example, how is a new guess made when g*g is not close enough to x?",Double g,Add 1 to g,Subtract x from g,Average g and x/g,D,New guess = (g + x/g) / 2.
+"For x = 16 with an initial guess g = 3, what is the next guess?",9,5.33,3.5,4.17,D,(3 + 16/3) / 2 is about 4.17.
+Which two things do computers do?,Think creatively and feel emotions,Understand what you meant to write,Perform simple operations and remember results,Draw and speak,C,"Billions of simple operations per second, plus storage."
+What is the big idea about computers on the 'A computer will only do what you tell it to do' slide?,They ignore unclear instructions and continue,They only do what you tell them to do,They guess what you meant,They fix your logic errors automatically,B,Computers follow instructions exactly.
+A fixed program computer is:,A modern laptop,A computer that cannot do arithmetic,A computer that stores programs in memory,"One with a fixed set of algorithms, what we had until the 1940s",D,Stored program computers came later.
+What is the key insight of the stored program computer?,Data cannot be stored,Programs are no different from other kinds of data,Only the CPU may hold numbers,Programs must never change,B,Instructions can be stored and executed like data.
+Which special program executes each instruction in order?,The monitor,The hard drive,The interpreter,The text editor,C,The interpreter executes instructions; tests change the flow of control.
+"In the computer diagram, which part holds the program counter?",Output,Memory,Arithmetic logic unit,Control unit,D,The control unit tracks which instruction runs next.
+What does the arithmetic logic unit (ALU) do?,Displays output,Stores the program counter,Reads the keyboard,Performs primitive operations,D,The ALU does primitive operations such as add and compare.
+How many primitives did Turing show are enough to compute anything on a simple machine?,100,6,2,10,B,"Left, right, print, scan, erase, no op."
+Anything computable in one programming language is:,Only computable in that language,Computable in any other programming language,Impossible in other languages,Only computable in Python,B,All general programming languages are equally powerful.
+Which of these is NOT syntactically valid in Python?,"""hi""+""there""","""hi""*5",5*5,"""hi""5",D,Two literals side by side with no operator breaks syntax.
+"""hi""*5 is:",A static semantic error,Syntactically valid,Not a string operation,A syntax error,B,String repetition gives 'hihihihihi'.
+"""hi""+5 is:",Syntactically valid but a static semantic error,A syntax error,Perfectly valid and equals 'hi5',Equal to 10,A,You cannot add a string and an int.
+What is static semantics?,How fast code runs,The colour of code in the editor,Which syntactically valid strings have meaning,The number of lines in a program,C,'I are hungry' is valid syntax but has a static semantic error.
+"A program has only one meaning, but that meaning:",May not be what the programmer intended,Changes each time it runs,Is decided by the computer,Is always what the programmer intended,A,"The program does exactly what you wrote, not what you meant."
+Which error type is common and easily caught?,Syntactic errors,Errors in the algorithm,Wrong answers that look right,Logic errors,A,Syntax errors are caught before the program runs.
+Which is NOT a way a program can go wrong with the wrong meaning?,It crashes,It automatically corrects itself,It runs forever,It gives a wrong answer,B,"Crash, infinite run, or a wrong answer are the three listed."
+A Python program is a sequence of:,Definitions and commands,Only comments,Only numbers,Pictures and sounds,A,Definitions are evaluated; commands are executed.
+What is the type of 5?,int,float,str,bool,A,5 is an integer.
+What is the type of 3.0?,float,bool,int,NoneType,A,Anything with a decimal point is a float.
+What is the type of True?,bool,int,NoneType,str,A,True and False are bool values.
+How many values does NoneType have?,One: None,Two,Zero,Infinite,A,"NoneType has exactly one value, None."
+Which of these is a scalar object?,A float such as 8.3,"A string such as ""abc""",A list,A dictionary,A,Scalars cannot be subdivided: numbers and truth values.
+What does int(3.9) return?,3.0,4,3.9,3,D,"int() truncates, it does not round."
+What does round(3.9) return?,4.0,3.9,4,3,C,round() returns the int 4.
+What does float(3) return?,Error,3,3.0,0.3,C,float(3) casts the int 3 to 3.0.
+What is the type of 4*3?,int,str,float,bool,A,int times int is int.
+What is the type of 4.0*3?,int,float,str,bool,B,"If either operand is a float, the result is a float."
+What is the type of 5/3?,str,float,bool,int,B,The / operator always gives a float.
+What is 7//2?,3.5,2,3,4,C,// is floor division.
+What is 17 % 5?,3,12,2,3.4,C,% gives the remainder: 17 = 3*5 + 2.
+What is 2**3?,8,5,6,9,A,** is exponentiation.
+What is the value of (4+2)*6-1?,36,29,30,35,D,Parentheses first: 6*6-1 = 35.
+Which operator has the highest precedence without parentheses?,*,**,+,%,B,** comes before * / % which come before + -.
+What is int(1/2)?,0.5,2,1,0,D,"1/2 = 0.5, and int() truncates to 0."
+"In Python, the = sign means:",Solve for x,Equality test,Greater than,Assignment,D,It binds the value on the right to the name on the left.
+Which of these is allowed in Python?,6 = x,x*y = 3+4,3+4 = xy,x = 6,D,The left side must be a variable name.
+"Which is a good, valid Python variable name?",2radius,total_area,area!,my-var,B,Letters and underscores are fine; do not start with a number.
+Comments in Python start with:,--,//,/*,#,D,Comments are not executed.
+How do CS variables differ from math variables?,It represents many values at once,A CS variable is bound to one single value at a given time,It must be a number,It cannot change,B,Math variables are abstract; CS variables are bound to one value.
+Why give names to values of expressions?,To reuse names and make code easier to read and modify,Because Python requires it,To make the code run faster,To hide values from the computer,A,Names make code readable and easy to change.
+meters = 100; feet = 3.2808 * meters; meters = 200. What is feet after the last line?,Error,328.08,200,656.16,B,feet was calculated when meters was 100 and is not recalculated.
+"After x = 1; y = 2; y = x; x = y, what are x and y?","x = 1, y = 2","x = 1, y = 1","x = 2, y = 2","x = 2, y = 1",B,Both end up 1. You need a temp variable to swap.
+"To swap x and y correctly, you should:",Assign y = x then x = y,Use a temporary variable,Add the two numbers twice,Use only one variable,B,temp = x; x = y; y = temp.
+"After radius = radius+1 runs, what happens to an earlier area = pi*(radius**2)?",It updates automatically,It causes an error,It stays the same until you recalculate it,It becomes 0,C,"Variables bind to values, not expressions."
+What is the BIG IDEA about expressions?,Expressions have no type,Always store expressions as text,Replace complex expressions by ONE value,Never use parentheses,C,Python evaluates an expression and stores its value.
+Lines of code in a basic program are evaluated:,In random order,From bottom to top,All at once,"One after the other, in order",D,"No skipping around, yet."
